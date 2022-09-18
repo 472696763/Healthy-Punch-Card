@@ -146,7 +146,7 @@ def main(username, password):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Healthy Punch Card')
-    parser.add_argument('--username', type=str, default=None)
-    parser.add_argument('--password', type=str, default=None)
+    parser.add_argument('--username', type=str, default='224711116')
+    parser.add_argument('--password', type=str, default='@Apple0235@')
     args = parser.parse_args()
     main(args.username, args.password)
